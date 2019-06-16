@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>我的网页设计</title>
+  <style type="text/css">
+            #box1{
+                width:100px;
+                height:180px;
+                background-color:pink;
+                position:absolute;
+            }
+        </style>
+        <script type="text/javascript">
+            window.onload = function(){
+                var box1 = document.getElementById("box1");
+                document.onmousemove = function(event){
+                    event = event || window.event;
+                    var st = document.body.scrollTop || document.documentElement.scrollTop;
+                    console.log(st);
+                    var top = event.clientY;
+                    box1.style.top = -70+st+"px";
+                }
+            }
+        </script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="hql.html"><big><div>黄泉路</div></big></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        目录
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="bah.html"><big>彼岸花</big></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nhq.html"><big>奈何桥</big></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wxt.html"><big>望乡台</big></a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="sss.html"><big>三生石</big></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+ <header class="masthead" style="background-color:0">
+  <header class="0" style="background-image: url('img/hql-bg.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading" id="db">
+            <h1>黄泉路</h1>
+            <span class="subheading">制作者：JL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+
+   <article>
+   <header class="masthead" style="background-image: url('img/hql0-bg.jpg')">
+     <div class="container">
+      <div class="row">
+       <div class="col-lg-8 col-md-10 float:left">
+	    <div id="container" style="width:1060px">
+	     <div id="header" style="background-image: url('img/hql2-bg.jpg')">
+		  <div align="center"><h1 style="margin-bottom:0;">黄泉</h1></div></div>
+		   <div id="menu" style="height:185px;width:100px;float:left;">
+		    <table border="5">
+			  <tr><div id="menu" style="background-color:#FF0000;height:35px;width:100px;float:left;"></tr>
+			  <tr><div id="menu" style="background-color:#FF0066;height:35px;width:100px;float:left;"></tr>
+			  <tr><div id="menu" style="background-color:#FF0099;height:35px;width:100px;float:left;"></tr>
+			  <tr><div id="menu" style="background-color:#FF00CC;height:35px;width:100px;float:left;"></tr>
+			  <tr><div id="menu" style="background-color:#FF00FF;height:35px;width:100px;float:left;"></tr>
+			</table>
+		    <div align="center" id="box1">
+		     <button type="button" style="background-color:#FF0000"><a href="#jj"><b>黄泉简介</b></a></button><br>
+		     <button type="button" style="background-color:#FF0066"><a href="#cs"><b>神话传说</b></a></button><br>
+		     <button type="button" style="background-color:#FF0099"><a href="#qy"><b>历史起源</b></a></button><br>
+		     <button type="button" style="background-color:#FF00CC"><a href="#sj"><b>相关诗句</b></a></button><br>
+			 <button type="button" style="background-color:#FF00FF"><a href="#db"><b>返回顶部</b></a></button></div>
+		    </div>
+		    <div id="content" style="background-color:#EEEEEE;width:960px;float:left;">
+			<header class="masthead" style="background-image: url('img/hql1-bg.jpg')">
+			 <div class="container">
+              <div class="row">
+               <div class="col-lg-12 col-md-14 float:left">
+          <h2 class="first-setion" style="text-align:center" id="jj">黄泉简介</h2>
+          <p>	黄泉，原指地下的泉水，后来被引作阴曹地府的代称，黄泉路也成了通往阴曹地府的必经之路。黄泉路上没老少,比喻人不论年纪大或小，都可能死亡。俗语说：黄泉路上没老少，你又何必斤斤计较！走完黄泉路后，就意味着即将受到阎罗王的最后审判以及十八层地狱的最后考验了。<br>
+		  在中国文化中是指人死后所居住的地方。古代认为天地玄黄，而泉在地下，所以称为黄泉。一说为中国以黄河流域为中心，泉水因黄土而变黄,故称为黄泉。乐府诗集˙卷七十三˙杂曲歌辞十三˙古辞˙焦仲卿妻：结发同枕席，黄泉共为友。<br>
+		  碧落黄泉碧落，天空。黄泉，地底下。碧落黄泉指从天上到地下。语本唐白居易长恨歌：上穷碧落下黄泉，两处茫茫皆不见。后用以形容上天下地，无所不包的范围。清洪升长生殿第五十出：荷君王不弃，念切思专，碧落黄泉，为奴寻遍。<br>
+		  不到黄泉不相见，郑庄公与母亲见(左传)隐公元年原文为：不及黄泉无相见也。人生无常，黄泉路上也不相遇。既是苦，又是空怀着多少血与泪，几多冷嘲与热讽。吾独向黄泉。黄泉下相见。两眼下视黄泉；看天就是傲慢。上穷碧落下黄泉，两处茫茫皆不见。</p>
+
+	  <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql0.jpg" alt="hql0" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql1.jpg" alt="hql1" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql2.jpg" alt="hql2" style="width:280px;height:250px">
+        </div>
+      </div>
+			<br>
+		  <h2 class="second-setion" style="text-align:center" id="cs">神话传说</h2>
+          <p>	有人认为，人的阳寿到了就会死，这是正常的死亡，正常死亡的人首先要过鬼门关，过了这一关人的魂魄就变成了鬼，接下来就是黄泉路，是接引之路。在黄泉路上还有很多孤魂野鬼，他们是那些阳寿未尽而非正常死亡的，他们即不能上天，也不能投胎，更不能到阴间，只能再黄泉路上游荡，等待阳寿到了后才能到阴间报到，听候阎罗王的发落。在黄泉路上有火红的彼岸花。彼岸花是一般认为是生长在三途河边的接引之花。在那儿大批大批的开着这花，远远看上去就像是血所铺成的地毯, 又因其红的似火而被喻为“火照之路” 也是这长长黄泉路上唯一的风景与色彩. 人就踏着这花的指引通向幽冥之狱。花香传说有魔力，能唤起死者生前的记忆。 走过黄泉路后，有一条河叫忘川河，上有一座桥叫奈何桥。走过奈何桥有一个土台叫望乡台，望乡台边有个老妇人在卖孟婆汤，忘川河边有一块石头叫三生石，孟婆汤让你忘了一切，三生石记载着你的前世今生。</p> 
+
+	   <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql3.jpg" alt="hql3" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql4.jpg" alt="hql4" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql5.jpg" alt="hql5" style="width:280px;height:250px">
+        </div>
+       </div>
+			<br>
+		  <h2 class="third-setion" style="text-align:center" id="qy">历史起源</h2>
+          <p>	黄泉一词的出处是《东周列国》故事“郑庄公掘地见母”：郑庄公的父亲是郑武公，娶姜氏为妻，生有两个儿子，大儿子叫寤生，二儿子叫段。因为段长得一表人才，姜氏便偏爱他，希望郑武公立段为太子，可是未能如愿，姜氏一直怀恨在心。等武公去世后，寤生继承王位，号郑庄公。姜氏多次向庄公提出无理要求，庄公碍于母亲情面，都满足了她。但是姜氏毫不知足，居然煽动次子段篡位。但后来被庄公识破，段自刎而死，庄公大怒之下把母亲从京城赶到颖地，还发誓说：不到黄泉不相见。可是他事后非常后悔，毕竟姜氏是他的生母。 <br>
+		  当时颖地的官员叫颖考叔，为人正直无私，一向有孝顺爱友的美誉。他见庄公把母亲安置这里，便对人说：母亲虽然不象母亲，但儿子却不能不象儿子。于是抓了几只小鸟来见庄公。庄公问：这是什么鸟？颖考叔说：这种鸟叫号鸟，最不孝道，母亲把它养大，但他长大后反过来却啄食母亲，所以抓来准备吃掉它。庄公听后哑然无语。<br>
+		  时值膳房送来一只蒸羊，庄公割下一条羊腿给考叔，考叔却将羊肉撕下放于袖中。庄公不解。考叔说：我家母亲因家中贫困，从不曾吃过如此美味，我要拿回家给母亲食用。庄公不觉凄然。考叔知道已经说动了庄公，却因为有“不到黄泉不相见”的誓言所阻，于是献计，挖掘地下，直到泉水涌出时，建一地下室，然后把母亲接来居住。最后终于使庄公母子团聚。</p>
+
+		<div class="row">
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql6.jpg" alt="hql6" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql7.jpg" alt="hql7" style="width:280px;height:250px">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <img src="img/hql8.jpg" alt="hql8" style="width:280px;height:250px">
+        </div>
+        </div>
+			<br>
+		  <h2 class="fourth-setion" style="text-align:center" id="sj">相关诗句</h2>
+		  <div class="hql-preview" style="float:left; text-align:left">
+		    <h4 class="hql-title" style="text-align:center">
+              黄泉路
+            </h4>
+		  <p>奈何桥上道奈何，</p>
+		  <p>是非不渡忘川河。</p>
+		  <p>三生石前无对错，</p>
+		  <p>望乡台边会孟婆。</p></div>
+		  <div class="hql-preview" style="float:right; text-align:left">
+		    <h4 class="hql-title" style="text-align:center">
+              彼道
+            </h4>
+		      <p>火照之路泪成河，</p>
+		      <p>忘川河岸骨冷彻。</p>
+		      <p>三生石前望三生，</p>
+		      <p>奈何桥上叹奈何。</p>
+		     </div>
+            </div>
+           </div>
+          </div>
+	     </div>
+	    </div>
+	   </div>
+	  </div>
+     </div>
+    </div>
+	 </header>
+   </article>
+     </header>
+   <hr>
+  <!-- Footer -->
+ <div class="footer">
+	<p class="copyright text-muted" style="text-align:center">Private &copy; JL独家制作</p>
+ </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.js"></script>
+</body>
+
+</html>
